@@ -99,7 +99,7 @@ func toh265Help(src, dst, file, threads string, index, total int) string {
 	log.Info.Println("开始处理文件:", in)
 	log.Info.Println("输出文件:", out)
 
-	cmd := exec.Command("ffmpeg", "-threads", threads, "-i", in, "-c:v", "libaom-av1", "-crf", "30", "-threads", threads, out)
+	cmd := exec.Command("ffmpeg", "-threads", threads, "-i", in, "-c:v", "libaom-av1", "-crf", "0", "-strict", "-2", "-threads", threads, out)
 	log.Debug.Printf("生成的命令是:%s\n", cmd)
 	stdout, err := cmd.StdoutPipe()
 	cmd.Stderr = cmd.Stdout
