@@ -1,10 +1,10 @@
-package video2h265mp4
+package video2av1mp4
 
 import (
 	"fmt"
 	"github.com/zhangyiming748/replace"
-	"github.com/zhangyiming748/video2h265mp4/log"
-	"github.com/zhangyiming748/video2h265mp4/util"
+	"github.com/zhangyiming748/video2av1mp4/log"
+	"github.com/zhangyiming748/video2av1mp4/util"
 	"github.com/zhangyiming748/voiceAlert"
 	"os"
 	"os/exec"

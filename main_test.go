@@ -1,7 +1,7 @@
-package video2h265mp4
+package video2av1mp4
 
 import (
-	"github.com/zhangyiming748/video2h265mp4/log"
+	"github.com/zhangyiming748/video2av1mp4/log"
 	"os/exec"
 	"strconv"
 	"testing"

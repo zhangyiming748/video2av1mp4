@@ -1,7 +1,7 @@
 package util
 
 import (
-	"github.com/zhangyiming748/video2h265mp4/log"
+	"github.com/zhangyiming748/video2av1mp4/log"
 	"os"
 	"path"
 	"strings"
