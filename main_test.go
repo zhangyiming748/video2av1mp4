@@ -1,7 +1,7 @@
 package video2av1mp4
 
 import (
-	"github.com/zhangyiming748/video2av1mp4/log"
+	"github.com/zhangyiming748/log"
 	"os/exec"
 	"strconv"
 	"testing"
